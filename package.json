@@ -1,5 +1,5 @@
 {
 	"dependencies": {
-		"api": "^6.1.1"
+		"redis": "^4.6.13"
 	}
 }
