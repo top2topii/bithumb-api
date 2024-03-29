@@ -28,3 +28,12 @@ NODE="/home/omadm/.nvm/versions/node/v18.19.0/bin/node"
 cd /home/app/tokenswap/backend/bithumb-api
 $NODE ./api.js
 ```
+
+## date 처리
+```js
+const unixTimestamp = 1711687495772;
+const date = new Date(unixTimestamp );
+const timeString = date.toLocaleString();
+
+console.log(timeString);
+```
